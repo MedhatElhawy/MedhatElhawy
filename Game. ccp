@@ -1,0 +1,89 @@
+include <iostream>
+#include <cmath>
+#include <vector>
+#include <limits>
+using namespace std;
+
+// for numeric_limits
+
+vector<int> valid_moves(int coins) {
+    vector<int> moves;
+    for (int i = 1; i <= sqrt(coins); ++i) {
+        moves.push_back(i * i);
+    }
+    return moves;
+}
+
+int get_valid_input(int coins, int player) {
+    int move;
+    while (true) {
+        cout << "Player " << player << " - Choose a square number to subtract: ";
+        if (!(cin >> move)) {
+            cout << "Invalid input. Please enter a valid square number." << endl;
+            cin.clear(); // Clear error flags
+            
+cin.ignore(numeric_limits <streamsize>::max(), '\n'); // Discard invalid input
+            continue;
+        }
+        
+        vector<int> moves = valid_moves(coins);
+        bool valid_move = false;
+        for (int m : moves) {
+            if (m == move) {
+                valid_move = true;
+                break;
+            }
+        }
+        
+        if (!valid_move) {
+            cout << "Invalid move. Please choose a valid square number." << endl;
+        } else {
+            break;
+        }
+    }
+    return move;
+}
+
+void play_game() {
+    int coins;
+    cout << "Enter the initial number of coins: ";
+    while (!(cin >> coins) || coins <= 0) {
+        cout << "Invalid input. Please enter a positive integer." << endl;
+        cin.clear(); // Clear error flags
+        cin.ignore(numeric_limits <streamsize>::max(), '\n'); // Discard invalid input
+    }
+    
+    int player = 1;
+    
+    while (coins > 0) {
+        cout << "\nCurrent number of coins: " << coins << endl;
+        
+        // Generate valid moves for the current number of coins
+        vector<int> moves = valid_moves(coins);
+         cout << "Valid moves: ";
+        for (int m : moves) {
+            cout << m << " ";
+        }
+        cout << endl;
+        
+        // Get player input and validate it
+        int move = get_valid_input(coins, player);
+        
+        // Subtract the chosen move from the current number of coins
+        coins -= move;
+        
+        // Check if the game is over
+        if (coins == 0) {
+            cout << "\nPlayer " << player << " wins!" << endl;
+            break;
+        }
+        
+        // Switch players
+        player = (player == 1) ? 2 : 1;
+    }
+}
+
+int main() {
+    play_game();
+    return 0;
+}
