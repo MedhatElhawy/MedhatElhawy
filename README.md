@@ -1,52 +1,61 @@
 # Hi there, I'm Medhat Orabi 👋
-**Computer Science Student (AI Major) | Aspiring AI Engineer**
+**AI Major @ Cairo University (FCAI) | Deep Learning & Applied AI Engineer**
 
-I am an Artificial Intelligence student at Cairo University (FCAI) specializing in deep learning architectures and taking models from research to deployment. I have a strong foundation in implementing algorithms from scratch and serving scalable AI applications using PyTorch, FastAPI, and Docker.
+I specialize in deep learning architectures and taking models from low-level PyTorch implementations to scalable, containerized production APIs using FastAPI and Docker.
 
 ---
 
 ### 🚀 About Me
-- 🎓 **Education:** Faculty of Computers and Artificial Intelligence (FCAI), Cairo University (AI Major, Expected Graduation: September 2027).
-- 💼 **Currently:** AI Agent Intern @ Orange Digital Center — building LLM-powered agent workflows and RAG pipelines. AI Trainee @ ITI — advanced ML/DL/NLP training track.
-- 🧠 **Focus Areas:** Deep Learning, NLP & Large Language Models, Retrieval-Augmented Generation (RAG), and Generative Diffusion Models.
-- 📜 **Certified:** Completed the 66-hour *AI Engineering Masterclass* by Dr. Mahmoud Abdellahi.
-- 🛠️ **Hands-on Implementations:** Experienced in building custom PyTorch layers (Attention, Positional Encodings, U-Net), vector retrieval pipelines, and containerized backend APIs.
-- 💬 **Ask me about:** Transformer architectures, RAG pipelines, Diffusion denoising loops, and end-to-end ML deployment.
+- 🎓 **Education:** B.Sc. in Artificial Intelligence, Faculty of Computers and Artificial Intelligence, Cairo University (Expected: Sep 2027).
+- 💼 **Experience:** AI Agent Intern @ Orange Digital Center • NLP Specialist Trainee @ NTI & ITIDA.
+- 🧠 **Focus Areas:** Deep Learning, LLMs & Multi-Agent Workflows, Production RAG Pipelines, and Generative Diffusion Models.
+- 🛠️ **Engineering Core:** Writing architectures from scratch (Custom Attention, Positional Encodings, U-Net) and serving them via asynchronous backends.
+- 💬 **Ask me about:** Denoising loops, hybrid vector retrieval (BM25 + FAISS), and containerized inference optimization.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Tech Stack & Tooling
 
-**Programming & Frameworks:**
-
+**Core & Deep Learning:**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat)
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
-**MLOps & Deployment:**
+**Vector Stores & Data:**  
+![FAISS](https://img.shields.io/badge/-FAISS-00599C?style=flat&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=flat&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-336791?style=flat&logo=postgresql&logoColor=white)
 
+**Deployment & Infrastructure:**  
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Gradio](https://img.shields.io/badge/-Gradio-FF7C00?style=flat&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-
-**Tools & Environments:**
-
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
 ---
 
-### 🔬 Key Projects
+### 🔬 Featured Projects
 
-* **Intelligent Hybrid Sales Chatbot (Graduation Project, NTI — Team):** Multi-turn conversational agent with hybrid vector search (FAISS + BM25, Reciprocal Rank Fusion), bilingual Arabic/English intent classification, sentiment analysis, human handoff logic, and a Gradio Blocks admin UI — structured for Hugging Face Spaces deployment.
-* **Production-Ready Retrieval-Augmented Generation (RAG) System:** Developed an end-to-end question-answering system over custom knowledge bases leveraging dense embeddings, vector search indexing (FAISS/ChromaDB), semantic chunking, and LLM orchestration via LangChain & FastAPI.
-* **Custom Transformer & Attention Mechanism:** Implemented a Transformer Encoder architecture from scratch with custom PyTorch modules for scaled dot-product attention and positional encodings.
-* **Generative Image Diffusion Model:** Constructed a learned reverse diffusion process using a custom PyTorch U-Net backbone and noise scheduling.
-* **End-to-End Predictive Maintenance System:** Built an anomaly detection pipeline with XGBoost, served via FastAPI, and containerized using Docker.
+* **Intelligent Hybrid Sales Chatbot — Graduation Project (NTI, Team Project)**  
+  Multi-turn conversational system built with hybrid retrieval (FAISS + BM25, Reciprocal Rank Fusion), bilingual Arabic/English intent classification, sentiment analysis, and a Gradio Blocks dashboard.
+
+* **Production Multi-Source RAG Pipeline**  
+  End-to-end question-answering engine with dense semantic embeddings, contextual chunking, ChromaDB indexing, and low-latency FastAPI endpoints.
+
+* **PyTorch Deep Learning Implementations from Scratch**  
+  Modular implementations of scaled dot-product multi-head attention, sinusoidal positional encodings, and a conditional U-Net reverse-diffusion denoising loop.
+
+* **Predictive Maintenance Anomaly Detection**  
+  Industrial sensor anomaly detection pipeline powered by XGBoost, served via asynchronous REST endpoints in FastAPI, and containerized with multi-stage Docker builds.
+---
+
+### 📜 Certifications & Achievements
+
+* **Natural Language Processing Track (Score: 97.5%)** — National Telecommunication Institute (NTI) & ITIDA (Aug 2026)
+* **AI Engineering Masterclass (66 Hours)** — Deep Learning & System Deployment (June 2026)
 
 ---
 
