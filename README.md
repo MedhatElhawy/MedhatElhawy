@@ -1,5 +1,4 @@
 # Hi there, I'm Medhat Orabi 👋
-
 **Computer Science Student (AI Major) | Aspiring AI Engineer**
 
 I am an Artificial Intelligence student at Cairo University (FCAI) specializing in deep learning architectures and taking models from research to deployment. I have a strong foundation in implementing algorithms from scratch and serving scalable AI applications using PyTorch, FastAPI, and Docker.
@@ -7,7 +6,8 @@ I am an Artificial Intelligence student at Cairo University (FCAI) specializing 
 ---
 
 ### 🚀 About Me
-- 🎓 **Education:** Faculty of Computers and Artificial Intelligence (FCAI), Cairo University (AI Major, Expected Graduation: 2027).
+- 🎓 **Education:** Faculty of Computers and Artificial Intelligence (FCAI), Cairo University (AI Major, Expected Graduation: September 2027).
+- 💼 **Currently:** AI Agent Intern @ Orange Digital Center — building LLM-powered agent workflows and RAG pipelines. AI Trainee @ ITI — advanced ML/DL/NLP training track.
 - 🧠 **Focus Areas:** Deep Learning, NLP & Large Language Models, Retrieval-Augmented Generation (RAG), and Generative Diffusion Models.
 - 📜 **Certified:** Completed the 66-hour *AI Engineering Masterclass* by Dr. Mahmoud Abdellahi.
 - 🛠️ **Hands-on Implementations:** Experienced in building custom PyTorch layers (Attention, Positional Encodings, U-Net), vector retrieval pipelines, and containerized backend APIs.
@@ -18,6 +18,7 @@ I am an Artificial Intelligence student at Cairo University (FCAI) specializing 
 ### 🛠️ Tech Stack & Skills
 
 **Programming & Frameworks:**
+
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
@@ -25,11 +26,13 @@ I am an Artificial Intelligence student at Cairo University (FCAI) specializing 
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
 **MLOps & Deployment:**
+
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 **Tools & Environments:**
+
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -39,6 +42,7 @@ I am an Artificial Intelligence student at Cairo University (FCAI) specializing 
 
 ### 🔬 Key Projects
 
+* **Intelligent Hybrid Sales Chatbot (Graduation Project, NTI — Team):** Multi-turn conversational agent with hybrid vector search (FAISS + BM25, Reciprocal Rank Fusion), bilingual Arabic/English intent classification, sentiment analysis, human handoff logic, and a Gradio Blocks admin UI — structured for Hugging Face Spaces deployment.
 * **Production-Ready Retrieval-Augmented Generation (RAG) System:** Developed an end-to-end question-answering system over custom knowledge bases leveraging dense embeddings, vector search indexing (FAISS/ChromaDB), semantic chunking, and LLM orchestration via LangChain & FastAPI.
 * **Custom Transformer & Attention Mechanism:** Implemented a Transformer Encoder architecture from scratch with custom PyTorch modules for scaled dot-product attention and positional encodings.
 * **Generative Image Diffusion Model:** Constructed a learned reverse diffusion process using a custom PyTorch U-Net backbone and noise scheduling.
@@ -53,4 +57,7 @@ I am an Artificial Intelligence student at Cairo University (FCAI) specializing 
 </a>
 <a href="mailto:medhatelhawy70@gmail.com">
   <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://medhatelhawy.github.io/" target="_blank">
+  <img src="https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
