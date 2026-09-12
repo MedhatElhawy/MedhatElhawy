@@ -7,7 +7,7 @@ I specialize in deep learning architectures and taking models from low-level PyT
 
 ### 🚀 About Me
 - 🎓 **Education:** B.Sc. in Artificial Intelligence, Faculty of Computers and Artificial Intelligence, Cairo University (Expected: Sep 2027).
-- 💼 **Experience:** AI Agent Intern @ Orange Digital Center • NLP Specialist Trainee @ NTI & ITIDA.
+- 💼 **Experience:** AI Agent Intern @ Orange Digital Center (ODC) • AI Summer Training @ Information Technology Institute (ITI).
 - 🧠 **Focus Areas:** Deep Learning, LLMs & Multi-Agent Workflows, Production RAG Pipelines, and Generative Diffusion Models.
 - 🛠️ **Engineering Core:** Writing architectures from scratch (Custom Attention, Positional Encodings, U-Net) and serving them via asynchronous backends.
 - 💬 **Ask me about:** Denoising loops, hybrid vector retrieval (BM25 + FAISS), and containerized inference optimization.
